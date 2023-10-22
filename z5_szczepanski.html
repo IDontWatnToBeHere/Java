@@ -1,0 +1,32 @@
+<html>
+    <head></head>
+        <body>
+            <script type="text/javascript">
+                function okno_zamknij_szczepanski()
+                    {window.close()}
+
+                function WinOpen_szczepanski_1()
+                    {window.open("grafika1.html","okienko_g1","toolbar=no,directories=no,menubar=no,height=300,width=200,top=200,left=70");}
+					
+
+                function WinOpen_szczepanski_2()
+                    {window.open("grafika2.html","okienko_g2","toolbar=no,directories=no,menubar=no,height=300,width=200,top=200,left=350");}
+
+                function WinOpen_szczepanski_3()
+                    {window.open("grafika3.html","okienko_g3","toolbar=no,directories=no,menubar=no,height=300,width=200,top=200,left=630");}
+                    
+                function WinOpen_szczepanski_4()
+                    {window.open("grafika4.html","okienko_g4","toolbar=no,directories=no,menubar=no,height=300,width=200,top=200,left=910");}
+					
+                    
+                document.write("Wykonał: Oliwier Szczepanski mój numer w dzienniku 23, czyli mam układ [(23) mod 4=3] układ 2".fontcolor("white").fontsize(7).bold()+"<br><br><center>");
+            </script>
+
+                <input type="button" value="grafika1" onclick="WinOpen_szczepanski_1(' ')">
+                <input type="button" value="grafika2" onclick="WinOpen_szczepanski_2(' ')">
+                <input type="button" value="grafika3" onclick="WinOpen_szczepanski_3(' ')">
+                <input type="button" value="grafika4" onclick="WinOpen_szczepanski_4(' ')"><br><br>
+
+                <input type="button" value="Zamknij okno" onclick="okno_zamknij_szczepanski(' ')">
+        </body>
+</html>
